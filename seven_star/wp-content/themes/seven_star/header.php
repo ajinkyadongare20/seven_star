@@ -13,47 +13,101 @@
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta charset="utf-8">
+    <title>Seven Star Website</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-	<?php wp_head(); ?>
+    <!-- Favicon -->
+    <link href="<?php bloginfo('template_directory'); ?>/img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="<?php bloginfo('template_directory'); ?>/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="<?php bloginfo('template_directory'); ?>/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="<?php bloginfo('template_directory'); ?>/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="<?php bloginfo('template_directory'); ?>/css/style.css" rel="stylesheet">
 </head>
 
-<body <?php body_class(); ?>>
-<?php wp_body_open(); ?>
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'seven_star' ); ?></a>
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
 
-	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$seven_star_description = get_bloginfo( 'description', 'display' );
-			if ( $seven_star_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $seven_star_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
 
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'seven_star' ); ?></button>
-			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-				)
-			);
-			?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light p-0">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center border-start border-end px-3">
+                    <small class="fa fa-phone-alt me-2"></small>
+                    <small>+012 345 6789</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center border-end px-3">
+                    <small class="far fa-envelope-open me-2"></small>
+                    <small>info@example.com</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center border-end px-3">
+                    <small class="far fa-clock me-2"></small>
+                    <small>Mon - Fri : 09 AM - 09 PM</small>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-square border-end border-start" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-square border-end" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-square border-end" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-square border-end" href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <h1 class="m-0"><i class="fa fa-building text-primary me-3"></i>APEX</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-3 py-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About Us</a>
+                <a href="service.html" class="nav-item nav-link">Our Services</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu bg-light m-0">
+                        <a href="feature.html" class="dropdown-item">Features</a>
+                        <a href="appointment.html" class="dropdown-item">Appointment</a>
+                        <a href="team.html" class="dropdown-item">Our Team</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        <a href="404.html" class="dropdown-item">404 Page</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+	<!-- Full Screen Search End -->
+    <div class="clearfix"></div>
