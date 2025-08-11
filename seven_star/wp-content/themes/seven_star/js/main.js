@@ -24,6 +24,12 @@
             $('.sticky-top').removeClass('shadow-sm').css('top', '-100px');
         }
     });
+
+    // Facts counter
+    $('[data-toggle="counter-up"]').counterUp({
+        delay: 10,
+        time: 2000
+    });
     
     
     // Back to top button
@@ -40,20 +46,46 @@
     });
 
 
-    // Testimonials carousel
+    // Causes progress
+    $('.causes-progress').waypoint(function () {
+        $('.progress .progress-bar').each(function () {
+            $(this).css("width", $(this).attr("aria-valuenow") + '%');
+        });
+    }, {offset: '80%'});
+
+
+    // testimonial carousel
     $(".testimonial-carousel").owlCarousel({
         autoplay: true,
-        smartSpeed: 1000,
-        items: 1,
-        dots: false,
+        smartSpeed: 1500,
+        center: false,
+        dots: true,
         loop: true,
-        nav: true,
+        margin: 25,
+        nav : false,
         navText : [
-            '<i class="bi bi-chevron-left"></i>',
-            '<i class="bi bi-chevron-right"></i>'
-        ]
+            '<i class="fa fa-angle-right"></i>',
+            '<i class="fa fa-angle-left"></i>'
+        ],
+        responsiveClass: true,
+        responsive: {
+            0:{
+                items:1
+            },
+            576:{
+                items:1
+            },
+            768:{
+                items:1
+            },
+            992:{
+                items:1
+            },
+            1200:{
+                items:2
+            }
+        }
     });
-
     
 })(jQuery);
 
