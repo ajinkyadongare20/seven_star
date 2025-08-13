@@ -23,7 +23,7 @@ get_header();
             <ol class="breadcrumb justify-content-center mb-0">
                 <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
                 <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                <li class="breadcrumb-item text-primary active" aria-current="page">Contact Us</li>
+                <li class="breadcrumb-item text-light active" aria-current="page">Contact Us</li>
             </ol>
         </nav>
     </div>

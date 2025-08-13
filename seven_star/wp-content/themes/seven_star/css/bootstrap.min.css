@@ -232,7 +232,7 @@ sup {
 }
 
 a {
-    color: #FDA12B;
+    color: #02245b;
     text-decoration: none
 }
 
@@ -2516,8 +2516,8 @@ textarea.form-control-lg {
 }
 
 .form-check-input:checked {
-    background-color: #FDA12B;
-    border-color: #FDA12B
+    background-color: #02245b;
+    border-color: #02245b
 }
 
 .form-check-input:checked[type="checkbox"] {
@@ -2529,8 +2529,8 @@ textarea.form-control-lg {
 }
 
 .form-check-input[type="checkbox"]:indeterminate {
-    background-color: #FDA12B;
-    border-color: #FDA12B;
+    background-color: #02245b;
+    border-color: #02245b;
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e")
 }
 
@@ -2619,7 +2619,7 @@ textarea.form-control-lg {
     width: 1rem;
     height: 1rem;
     margin-top: -.25rem;
-    background-color: #FDA12B;
+    background-color: #02245b;
     border: 0;
     border-radius: 1rem;
     transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -2649,7 +2649,7 @@ textarea.form-control-lg {
 .form-range::-moz-range-thumb {
     width: 1rem;
     height: 1rem;
-    background-color: #FDA12B;
+    background-color: #02245b;
     border: 0;
     border-radius: 1rem;
     transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3762,7 +3762,7 @@ fieldset:disabled .btn {
 
 .btn-link {
     font-weight: 400;
-    color: #FDA12B;
+    color: #02245b;
     text-decoration: none
 }
 
@@ -4138,7 +4138,7 @@ fieldset:disabled .btn {
 .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background-color: #FDA12B
+    background-color: #02245b
 }
 
 .dropdown-item.disabled,
@@ -4186,7 +4186,7 @@ fieldset:disabled .btn {
 .dropdown-menu-dark .dropdown-item.active,
 .dropdown-menu-dark .dropdown-item:active {
     color: #fff;
-    background-color: #FDA12B
+    background-color: #02245b
 }
 
 .dropdown-menu-dark .dropdown-item.disabled,
@@ -4328,7 +4328,7 @@ fieldset:disabled .btn {
 .nav-link {
     display: block;
     padding: .5rem 1rem;
-    color: #FDA12B;
+    color: #02245b;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out
 }
 
@@ -4395,7 +4395,7 @@ fieldset:disabled .btn {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #FDA12B
+    background-color: #02245b
 }
 
 .nav-fill>.nav-link,
@@ -5148,7 +5148,7 @@ fieldset:disabled .btn {
 .page-link {
     position: relative;
     display: block;
-    color: #FDA12B;
+    color: #02245b;
     background-color: #fff;
     border: 1px solid #dee2e6;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out
@@ -5182,8 +5182,8 @@ fieldset:disabled .btn {
 .page-item.active .page-link {
     z-index: 3;
     color: #fff;
-    background-color: #FDA12B;
-    border-color: #FDA12B
+    background-color: #02245b;
+    border-color: #02245b
 }
 
 .page-item.disabled .page-link {
@@ -5481,8 +5481,8 @@ fieldset:disabled .btn {
 .list-group-item.active {
     z-index: 2;
     color: #fff;
-    background-color: #FDA12B;
-    border-color: #FDA12B
+    background-color: #02245b;
+    border-color: #02245b
 }
 
 .list-group-item+.list-group-item {

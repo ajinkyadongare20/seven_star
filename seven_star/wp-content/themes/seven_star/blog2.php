@@ -1,7 +1,7 @@
 <?php
 /**
  * The main template file
- * Template Name: Blog
+ * Template Name: Blog 2
  * This is the most generic template file in a WordPress theme
  * and one of the two required files for a theme (the other being style.css).
  * It is used to display a page when nothing more specific matches a query.
@@ -18,17 +18,115 @@ get_header();
 <!-- Page Header Start -->
 <div class="container-fluid page-header py-5 wow fadeIn" data-wow-delay="0.1s">
     <div class="container text-center py-5">
-        <h1 class="display-4 text-white animated slideInDown mb-4">Blog</h1>
+        <h1 class="display-4 text-white animated slideInDown mb-4">Blog 2</h1>
         <nav aria-label="breadcrumb animated slideInDown">
             <ol class="breadcrumb justify-content-center mb-0">
                 <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
                 <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                <li class="breadcrumb-item text-light active" aria-current="page">Blog</li>
+                <li class="breadcrumb-item text-light active" aria-current="page">Blog 2</li>
             </ol>
         </nav>
     </div>
 </div>
 <!-- Page Header End -->
+
+
+<!-- Blog Details Start  -->
+<div class="container pt-5 pb-0 py-lg-5">
+    <!-- About the Project Section -->
+    <div class="text-start mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <img src="<?php bloginfo('template_directory'); ?>/img/blog/2.jpg"
+            style="width: 450px; height: 250px; object-fit: cover;" alt="Modern Commercial Interiors" class="border">
+        <h5 class="mt-3 fs-2">About the Topic</h5>
+        <p class="mt-4" style="font-size: 16px; line-height: 1.6;">
+            Modern commercial interiors are no longer just about aesthetics—they are about creating spaces that inspire productivity, 
+            encourage collaboration, and enhance the overall experience for employees and visitors. 
+            At Seven Star International Co., we combine functionality with cutting-edge design to craft interiors that are 
+            sustainable, adaptable, and future-ready.
+        </p>
+        <div class="row text-center mt-4">
+            <div class="col-md-4">
+                <h6>Location</h6>
+                <p>Various Corporate & Commercial Spaces</p>
+            </div>
+            <div class="col-md-4">
+                <h6>Industry</h6>
+                <p>Commercial & Office Interiors</p>
+            </div>
+            <div class="col-md-4">
+                <h6>Services Provided</h6>
+                <p>
+                    <span class="badge badge-warning text-white bg-primary">Interior Design & Fit-Out</span>
+                    <span class="badge badge-warning text-white bg-primary">Sustainable Space Planning</span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Business Situation Section -->
+    <div class="wow fadeIn" data-wow-delay="0.2s">
+        <h5 class="mb-4 fs-2">Business Situation</h5>
+        <p style="font-size: 16px; line-height: 1.6;">
+            As businesses evolve, so do their workspace needs. Traditional office designs often fail to accommodate 
+            hybrid work models, employee wellness, and the latest technological integrations. 
+        </p>
+        <p style="font-size: 16px; line-height: 1.6;">
+            Clients approached us seeking innovative interior solutions that balance style, efficiency, 
+            and sustainability—spaces that could enhance brand identity while remaining highly functional.
+        </p>
+    </div>
+
+    <!-- The Solution Section -->
+    <div class="py-5 wow fadeIn" data-wow-delay="0.3s">
+        <h5 class="mb-4 fs-2">Our Design Approach</h5>
+        <p style="font-size: 16px; line-height: 1.6;">
+            Our commercial interior solutions are based on five core principles:
+        </p>
+        <ul style="font-size: 16px; line-height: 2;">
+            <li>Space optimization for maximum functionality and flow.</li>
+            <li>Integration of biophilic design elements for improved well-being.</li>
+            <li>Use of sustainable materials and eco-friendly finishes.</li>
+            <li>Flexible layouts to support hybrid and collaborative work modes.</li>
+            <li>Incorporation of smart technology for comfort and efficiency.</li>
+        </ul>
+        <p style="font-size: 16px; line-height: 1.6;">
+            This design philosophy ensures spaces remain relevant, adaptable, and visually inspiring for years to come.
+        </p>
+    </div>
+
+    <!-- Key Advantages -->
+    <div class="wow fadeIn" data-wow-delay="0.4s">
+        <h5 class="mb-4 fs-2">Benefits of Our Modern Interior Solutions</h5>
+        <ul style="font-size: 16px; line-height: 2;">
+            <li>Improved employee productivity and engagement.</li>
+            <li>Enhanced client and visitor impressions.</li>
+            <li>Reduced operational costs through sustainable choices.</li>
+            <li>Custom-tailored aesthetics that reflect brand identity.</li>
+            <li>Long-lasting quality with minimal maintenance.</li>
+        </ul>
+    </div>
+
+    <!-- Client Trust Section -->
+    <div class="py-5 wow fadeIn" data-wow-delay="0.5s">
+        <h5 class="mb-4 fs-2">Why Clients Trust Our Designs</h5>
+        <p style="font-size: 16px; line-height: 1.6;">
+            Our reputation comes from delivering interiors that balance elegance with efficiency. 
+            We work closely with clients to understand their culture, brand, and workflow, ensuring every 
+            design choice aligns with their vision and operational needs.
+        </p>
+    </div>
+
+    <!-- Sustainability Commitment -->
+    <div class="wow fadeIn" data-wow-delay="0.6s">
+        <h5 class="mb-4 fs-2">Sustainability in Interior Design</h5>
+        <p style="font-size: 16px; line-height: 1.6;">
+            We are committed to eco-conscious design, incorporating energy-efficient lighting, 
+            recycled materials, low-VOC paints, and layouts that maximize natural light. 
+            This not only benefits the environment but also creates healthier and more inspiring workspaces.
+        </p>
+    </div>
+</div>
+<!-- Blog Details End  -->
 
 
 <!-- Blog Start -->
@@ -37,7 +135,8 @@ get_header();
         <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
             <h1 class="display-5 text-capitalize text-primary mb-3 py-3">Blog & News</h1>
             <p class="mb-0">
-                Stay updated with Seven Star's latest insights on project excellence, construction trends, technology innovations, and sustainable infrastructure solutions.
+                Stay updated with Seven Star's latest insights on project excellence, construction trends, technology
+                innovations, and sustainable infrastructure solutions.
             </p>
         </div>
 
@@ -46,7 +145,8 @@ get_header();
             <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="blog-item">
                     <div class="blog-img">
-                        <img src="<?php bloginfo('template_directory'); ?>/img/blog/1.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        <img src="<?php bloginfo('template_directory'); ?>/img/blog/1.jpg"
+                            class="img-fluid rounded-top w-100" alt="Image">
                     </div>
                     <div class="blog-content rounded-bottom p-4">
                         <div class="blog-date">30 Dec 2025</div>
@@ -62,7 +162,8 @@ get_header();
                         </div>
                         <a href="#" class="h4 d-block mb-3">7 Key Factors in Successful Turnkey Project Execution</a>
                         <p class="mb-3">
-                            From planning to handover, discover how Seven Star ensures precision, quality, and client satisfaction in every turnkey project we deliver.
+                            From planning to handover, discover how Seven Star ensures precision, quality, and client
+                            satisfaction in every turnkey project we deliver.
                         </p>
                         <a href="<?php echo site_url('/blog-1'); ?>" class="btn btn-primary">
                             Read More <i class="fa fa-arrow-right"></i>
@@ -75,7 +176,8 @@ get_header();
             <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="blog-item">
                     <div class="blog-img">
-                        <img src="<?php bloginfo('template_directory'); ?>/img/blog/2.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        <img src="<?php bloginfo('template_directory'); ?>/img/blog/2.jpg"
+                            class="img-fluid rounded-top w-100" alt="Image">
                     </div>
                     <div class="blog-content rounded-bottom p-4">
                         <div class="blog-date">25 Dec 2025</div>
@@ -91,7 +193,8 @@ get_header();
                         </div>
                         <a href="#" class="h4 d-block mb-3">Modern Trends in Commercial Building Interiors</a>
                         <p class="mb-3">
-                            Explore the latest design trends that combine functionality, aesthetics, and sustainability for next-generation commercial spaces.
+                            Explore the latest design trends that combine functionality, aesthetics, and sustainability
+                            for next-generation commercial spaces.
                         </p>
                         <a href="<?php echo site_url('/blog-2'); ?>" class="btn btn-primary">
                             Read More <i class="fa fa-arrow-right"></i>
@@ -104,7 +207,8 @@ get_header();
             <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="blog-item">
                     <div class="blog-img">
-                        <img src="<?php bloginfo('template_directory'); ?>/img/blog/3.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        <img src="<?php bloginfo('template_directory'); ?>/img/blog/3.jpg"
+                            class="img-fluid rounded-top w-100" alt="Image">
                     </div>
                     <div class="blog-content rounded-bottom p-4">
                         <div class="blog-date">27 Dec 2025</div>
@@ -120,7 +224,8 @@ get_header();
                         </div>
                         <a href="#" class="h4 d-block mb-3">How Technology is Transforming the Construction Industry</a>
                         <p class="mb-3">
-                            Learn how Seven Star integrates BIM, IoT, and smart monitoring systems to improve efficiency, safety, and accuracy in construction projects.
+                            Learn how Seven Star integrates BIM, IoT, and smart monitoring systems to improve
+                            efficiency, safety, and accuracy in construction projects.
                         </p>
                         <a href="<?php echo site_url('/blog-3'); ?>" class="btn btn-primary">
                             Read More <i class="fa fa-arrow-right"></i>
@@ -133,7 +238,8 @@ get_header();
             <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="blog-item">
                     <div class="blog-img">
-                        <img src="<?php bloginfo('template_directory'); ?>/img/blog/4.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        <img src="<?php bloginfo('template_directory'); ?>/img/blog/4.jpg"
+                            class="img-fluid rounded-top w-100" alt="Image">
                     </div>
                     <div class="blog-content rounded-bottom p-4">
                         <div class="blog-date">22 Dec 2025</div>
@@ -149,7 +255,8 @@ get_header();
                         </div>
                         <a href="#" class="h4 d-block mb-3">Sustainable Building Materials for a Greener Future</a>
                         <p class="mb-3">
-                            Discover how eco-friendly materials and innovative design choices can reduce environmental impact without compromising quality.
+                            Discover how eco-friendly materials and innovative design choices can reduce environmental
+                            impact without compromising quality.
                         </p>
                         <a href="<?php echo site_url('/blog-4'); ?>" class="btn btn-primary">
                             Read More <i class="fa fa-arrow-right"></i>
@@ -162,7 +269,8 @@ get_header();
             <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="blog-item">
                     <div class="blog-img">
-                        <img src="<?php bloginfo('template_directory'); ?>/img/blog/5.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        <img src="<?php bloginfo('template_directory'); ?>/img/blog/5.jpg"
+                            class="img-fluid rounded-top w-100" alt="Image">
                     </div>
                     <div class="blog-content rounded-bottom p-4">
                         <div class="blog-date">18 Dec 2025</div>
@@ -178,7 +286,8 @@ get_header();
                         </div>
                         <a href="#" class="h4 d-block mb-3">Project Management Best Practices for Large-Scale Builds</a>
                         <p class="mb-3">
-                            Effective project management is the backbone of timely delivery. Here’s how Seven Star handles large-scale projects with precision.
+                            Effective project management is the backbone of timely delivery. Here’s how Seven Star
+                            handles large-scale projects with precision.
                         </p>
                         <a href="<?php echo site_url('/blog-5'); ?>" class="btn btn-primary">
                             Read More <i class="fa fa-arrow-right"></i>
@@ -191,7 +300,8 @@ get_header();
             <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="blog-item">
                     <div class="blog-img">
-                        <img src="<?php bloginfo('template_directory'); ?>/img/blog/6.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                        <img src="<?php bloginfo('template_directory'); ?>/img/blog/6.jpg"
+                            class="img-fluid rounded-top w-100" alt="Image">
                     </div>
                     <div class="blog-content rounded-bottom p-4">
                         <div class="blog-date">15 Dec 2025</div>
@@ -207,7 +317,8 @@ get_header();
                         </div>
                         <a href="#" class="h4 d-block mb-3">Smart Infrastructure: Building Cities for Tomorrow</a>
                         <p class="mb-3">
-                            Learn how Seven Star is contributing to future-ready cities through smart infrastructure planning and sustainable urban development.
+                            Learn how Seven Star is contributing to future-ready cities through smart infrastructure
+                            planning and sustainable urban development.
                         </p>
                         <a href="<?php echo site_url('/blog-6'); ?>" class="btn btn-primary">
                             Read More <i class="fa fa-arrow-right"></i>
@@ -250,8 +361,8 @@ get_header();
                                     Q: What types of products does Seven Star International Co. offer?
                                 </button>
                             </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show"
-                                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     A: We offer a wide range of cooling appliances, including water coolers,
                                     water chillers, RO chillers, process water and oil chillers, bottle coolers,
@@ -375,7 +486,6 @@ get_header();
     </div>
 </div>
 <!-- Appointment End -->
-
 
 
 <?php

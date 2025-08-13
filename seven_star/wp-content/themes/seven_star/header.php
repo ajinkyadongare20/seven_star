@@ -20,7 +20,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="<?php bloginfo('template_directory'); ?>/img/favicon.ico" rel="icon">
+    <link href="<?php bloginfo('template_directory'); ?>/img/logo_seven_star.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

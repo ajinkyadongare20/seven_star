@@ -86,6 +86,52 @@
             }
         }
     });
+
+    // Portfolio isotope and filter
+    // var portfolioIsotope = $('.portfolio-container').isotope({
+    //     itemSelector: '.portfolio-item',
+    //     layoutMode: 'fitRows'
+    // });
+    // $('#portfolio-flters li').on('click', function () {
+    //     $("#portfolio-flters li").removeClass('active');
+    //     $(this).addClass('active');
+
+    //     portfolioIsotope.isotope({filter: $(this).data('filter')});
+    // });
     
 })(jQuery);
 
+
+// Careers Page Functionality
+document.addEventListener('DOMContentLoaded', function () {
+    // Initialize application modal if it exists on the page
+    if (document.querySelector('.apply-btn')) {
+        const applyButtons = document.querySelectorAll('.apply-btn');
+        const applicationModal = new bootstrap.Modal(document.getElementById('applicationModal'));
+        const positionSelect = document.getElementById('positionApplied');
+
+        applyButtons.forEach(button => {
+            button.addEventListener('click', function () {
+                const position = this.getAttribute('data-position');
+                if (positionSelect) positionSelect.value = position;
+                if (applicationModal) applicationModal.show();
+            });
+        });
+    }
+
+    // Form validation for application form
+    if (document.getElementById('applicationForm')) {
+        document.getElementById('applicationForm').addEventListener('submit', function (e) {
+            if (!this.checkValidity()) {
+                e.preventDefault();
+                e.stopPropagation();
+            }
+            this.classList.add('was-validated');
+        });
+    }
+});
+
+document.addEventListener('wpcf7mailsent', function (event) {
+  // Replace this with your custom toast code
+  alert('✅ Message sent!');
+}, false);
