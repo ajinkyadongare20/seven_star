@@ -96,8 +96,7 @@ get_header();
     <div class="container d-flex flex-column flex-lg-row gap-4 align-items-stretch">
         <!-- Left: Building Image -->
         <div class="w-100 w-lg-50" style="flex: 1;">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/ctc_contact.jpg" alt="RR Engineers Building"
-                style="height: 500px; width: 100%; object-fit: Contain;" />
+            <img src="<?php echo get_template_directory_uri(); ?>/img/ctc_contact.jpg" alt="RR Engineers Building" class="contact-custom-img"/>
         </div>
 
         <!-- Right: Map -->

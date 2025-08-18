@@ -34,7 +34,7 @@ get_header();
 <!-- Careers Start -->
 <div class="container-fluid careers py-5">
     <div class="container py-5">
-        <div class="d-flex flex-column mx-auto text-center mb-5 wow fadeInUp" data-wow-delay="0.2s"
+        <div class="d-flex flex-column mx-auto text-start text-lg-center mb-5 wow fadeInUp" data-wow-delay="0.2s"
             style="max-width: 800px;">
             <h4 class="text-secondary">Careers at Seven Star International Co.</h4>
             <h1 class="display-6 mb-4">Join Our Cooling Solutions Team</h1>

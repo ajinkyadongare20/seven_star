@@ -14,10 +14,10 @@
 <!-- Footer Start -->
 <div class="footer container-fluid position-relative bg-dark bg-light-radial text-white-50 py-5 px-5">
     <div class="row g-5 py-4">
-        <div class="col-lg-6 pe-lg-5">
+        <div class="col-lg-6 pe-lg-5 py-5 m-2 m-lg-0">
             <a href="<?php echo site_url('/index'); ?>" class="navbar-brand d-flex align-items-center mx-auto">
                 <img src="<?php bloginfo('template_directory'); ?>/img/logo_seven_star.png" alt="Seven Star Logo"
-                    style="height: 100px;">
+                    style="height: 80px;">
             </a>
             <p class="text-white">Seven Star International Co., we take pride in being one of the most trusted names in the cooling appliance industry. With a commitment to quality, innovation, and customer satisfaction, we specialize in manufacturing and supplying a wide range of high-performance cooling solutions tailored to both domestic and industrial needs.</p>
             <p class="text-white"><i class="fa fa-map-marker-alt me-2"></i>Nashik – 420003, Maharashtra, India</p>

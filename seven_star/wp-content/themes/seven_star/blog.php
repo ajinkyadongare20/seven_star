@@ -33,7 +33,7 @@ get_header();
 
 <!-- Blog Start -->
 <div class="container-fluid blog py-5">
-    <div class="container py-5">
+    <div class="container py-3 py-lg-5">
         <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
             <h1 class="display-5 text-capitalize text-primary mb-3 py-3">Blog & News</h1>
             <p class="mb-0">

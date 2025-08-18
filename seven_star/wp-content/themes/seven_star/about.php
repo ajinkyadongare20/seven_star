@@ -134,7 +134,7 @@ get_header();
 
 <!-- About Start -->
 <div class="container-xxl py-5">
-    <div class="container">
+    <div class="container py-0 py-lg-5">
         <div class="row g-5">
             <!-- Image Section -->
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -183,7 +183,7 @@ get_header();
                             <i class="fa fa-arrow-right"></i>
                         </div>
                     </a>
-                    <a class="btn btn-outline-primary text-dark border-secondary py-2 px-3" href="contact.html">
+                    <a class="btn btn-outline-primary text-dark border-secondary mt-3 mt-lg-0 py-2 px-3" href="contact.html">
                         Contact Us
                         <div class="d-inline-flex btn-sm-square bg-primary text-white border-1 rounded-circle ms-2">
                             <i class="fa fa-arrow-right"></i>
@@ -199,7 +199,7 @@ get_header();
 
 <!-- Our Mission, Vision, Values Start -->
 <div class="container-xxl bg-light py-5">
-    <div class="container py-5">
+    <div class="container py-2 py-lg-5">
         <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
             <h1 class="display-6 mb-5">Our Mission, Vision & Core Values</h1>
         </div>
@@ -272,9 +272,9 @@ get_header();
 
 
 <!-- Team Start -->
-<div class="container-fluid bg-light py-5">
+<div class="container-fluid bg-light py-2 py-lg-5">
     <div class="container pb-5">
-        <div class="d-flex flex-column mx-auto text-center mb-5 wow fadeInUp" data-wow-delay="0.2s"
+        <div class="d-flex flex-column mx-auto text-start text-lg-center mb-5 wow fadeInUp" data-wow-delay="0.2s"
             style="max-width: 800px;">
             <h4 class="text-secondary">Our Team</h4>
             <h1 class="display-6 mb-4">The Skilled Minds Powering Seven Star International Co.</h1>
@@ -520,7 +520,6 @@ get_header();
     </div>
 </div>
 <!-- Appointment End -->
-
 
 
 <?php

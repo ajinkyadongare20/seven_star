@@ -91,7 +91,7 @@ get_header();
 <!-- About Start -->
 <div class="container-xxl py-5">
     <div class="container">
-        <div class="row g-5">
+        <div class="row g-4 g-lg-5">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="position-relative overflow-hidden ps-5 pt-5 h-100" style="min-height: 400px;">
                     <img class="position-absolute w-100 h-100"
@@ -106,7 +106,7 @@ get_header();
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="col-lg-6 pt-5 pt-lg-0 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="h-100">
                     <div class="border-start border-5 border-primary ps-4 mb-5">
                         <h6 class="text-body text-uppercase mb-2">About Us</h6>
@@ -121,7 +121,7 @@ get_header();
                         cater to clients across Maharashtra and beyond with tailored cooling solutions backed by
                         reliable support.</p>
                     <div class="border-top mt-4 pt-4">
-                        <div class="row g-4">
+                        <div class="row g-4 g-lg-5">
                             <div class="col-sm-4 d-flex wow fadeIn" data-wow-delay="0.1s">
                                 <i class="fa fa-check fa-2x text-primary flex-shrink-0 me-3"></i>
                                 <h6 class="mb-0">Timely Delivery</h6>
@@ -145,13 +145,13 @@ get_header();
 
 
 <!-- Expertise Start -->
-<div class="container-xxl bg-light my-5 py-5">
+<div class="container-xxl bg-light my-2 my-lg-5 py-5">
     <div class="container py-0 py-lg-5 ">
         <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
             <h6 class="text-body text-uppercase mb-2">Feature Expertise</h6>
             <h1 class="display-6 mb-5">Precision Cooling Systems for Industrial Needs</h1>
         </div>
-        <div class="row g-4 justify-content-center">
+        <div class="row g-4 g-lg-5 justify-content-center">
 
             <!-- Expertise 1 -->
             <div class="col-lg-4 col-md-6 py-lg-4 wow fadeInUp" data-wow-delay="0.1s">
@@ -501,8 +501,8 @@ get_header();
 
 <!-- Our Core Strengths Start -->
 <div class="container-xxl py-5">
-    <div class="container">
-        <div class="row g-5">
+    <div class="container pb-lg-5">
+        <div class="row g-4 g-lg-5">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="border-start border-5 border-primary ps-4 mb-5">
                     <h6 class="text-body text-uppercase mb-2">Our Core Strengths</h6>
@@ -513,7 +513,7 @@ get_header();
                     tailored to industrial, commercial, and institutional needs. With a strong commitment to innovation, 
                     quality, and after-sales support, we help clients maintain operational efficiency and sustainability.
                 </p>
-                <div class="row gy-5 gx-4">
+                <div class="row gy-4 gy-lg-5 gx-4 gx-lg-5">
                     <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
                         <div class="d-flex align-items-center mb-3">
                             <i class="fa fa-check fa-2x text-primary flex-shrink-0 me-3"></i>
@@ -568,7 +568,7 @@ get_header();
 <!-- Why Choose Us -->
 <div class="container-fluid bg-dark feature pt-5">
     <div class="container pt-0 pt-lg-5">
-        <div class="row g-5">
+        <div class="row g-4 g-lg-5">
             <div class="col-lg-6 align-self-center mb-md-5 pb-md-5 wow fadeIn" data-wow-delay="0.2s">
                 <h1 class="text-white mb-4">Why Choose Us<br>Seven Star Engineers</h1>
                 <p class="text-light mb-4">
@@ -598,7 +598,7 @@ get_header();
                     </div>
                     <span>Dedicated After-Sales & AMC Support</span>
                 </div>
-                <div class="row g-4 pt-3">
+                <div class="row g-4 g-lg-5 pt-3">
                     <div class="col-sm-6">
                         <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
                             <i class="fa fa-check fa-3x text-white"></i>
@@ -714,7 +714,7 @@ get_header();
         <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
             <h1 class="display-6 mb-4">We Provide Advanced Cooling Solutions</h1>
         </div>
-        <div class="row gy-5 gx-4">
+        <div class="row gy-4 gy-lg-5 gx-4 gx-lg-5">
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="service-item">
                     <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/fact-1.jpg" alt="Water Coolers">
@@ -778,10 +778,89 @@ get_header();
 <!-- Service End -->
 
 
+<!-- Team Start -->
+<div class="container-fluid bg-light py-5">
+    <div class="container pb-5">
+        <div class="d-flex flex-column mx-auto text-start text-lg-center mb-5 wow fadeInUp" data-wow-delay="0.2s"
+            style="max-width: 800px;">
+            <h4 class="text-secondary">Our Team</h4>
+            <h1 class="display-6 mb-4">The Skilled Minds Powering Seven Star International Co.</h1>
+            <p class="mb-0">Our team at Seven Star International Co. brings together decades of expertise in cooling 
+                solutions, refrigeration systems, and engineering innovation. Each member is dedicated to delivering 
+                excellence, ensuring precision in manufacturing, and maintaining our strong reputation for quality 
+                and reliability worldwide.</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                <div class="team-item position-relative overflow-hidden">
+                    <img class="img-fluid w-100" src="<?php bloginfo('template_directory'); ?>/img/team-1.jpg" alt="CEO - Seven Star International Co.">
+                    <div class="team-overlay">
+                        <small class="mb-2">Founder & CEO</small>
+                        <h4 class="lh-base text-light">Mohammed Rashid</h4>
+                        <div class="d-flex justify-content-center">
+                            <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                <div class="team-item position-relative overflow-hidden">
+                    <img class="img-fluid w-100" src="<?php bloginfo('template_directory'); ?>/img/team-2.jpg" alt="Technical Director - Seven Star International Co.">
+                    <div class="team-overlay">
+                        <small class="mb-2">Technical Director</small>
+                        <h4 class="lh-base text-light">Ahmed Khan</h4>
+                        <div class="d-flex justify-content-center">
+                            <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                <div class="team-item position-relative overflow-hidden">
+                    <img class="img-fluid w-100" src="<?php bloginfo('template_directory'); ?>/img/team-3.jpg" alt="Production Manager - Seven Star International Co.">
+                    <div class="team-overlay">
+                        <small class="mb-2">Production Manager</small>
+                        <h4 class="lh-base text-light">Sarah Ali</h4>
+                        <div class="d-flex justify-content-center">
+                            <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                <div class="team-item position-relative overflow-hidden">
+                    <img class="img-fluid w-100" src="<?php bloginfo('template_directory'); ?>/img/team-1.jpg" alt="Sales & Marketing Head - Seven Star International Co.">
+                    <div class="team-overlay">
+                        <small class="mb-2">Sales & Marketing Head</small>
+                        <h4 class="lh-base text-light">Zara Mehmood</h4>
+                        <div class="d-flex justify-content-center">
+                            <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Team End -->
+
+
 <!-- Testimonial Start -->
 <div class="container-fluid testimonial bg-dark py-5">
     <div class="container py-5">
-        <div class="row g-5">
+        <div class="row g-4 g-lg-5">
             <div class="col-lg-6 col-xl-5 wow fadeInUp" data-wow-delay="0.2s">
                 <h4 class="text-white">Testimonials</h4>
                 <h1 class="display-5 text-white mb-4">What Our Clients Say About Us</h1>
@@ -921,7 +1000,7 @@ get_header();
 <!-- FAQ Start -->
 <div class="container-fluid faq-section bg-light py-5">
     <div class="container py-5">
-        <div class="row g-5">
+        <div class="row g-4 g-lg-5">
             <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
                 <h4 class="text-primary">FAQs - Seven Star International Co.</h4>
                 <h1 class="display-4 mb-4">Frequently Asked Questions</h1>
@@ -1026,7 +1105,7 @@ get_header();
 
 <!-- Appointment Start -->
 <div class="container-fluid py-5 px-5">
-    <div class="row gx-5">
+    <div class="row gx-4 gx-lg-5">
         <div class="col-lg-4 mb-5 mb-lg-0">
             <div class="mb-4">
                 <h1 class="display-5 text-uppercase mb-4">Request A <span class="text-primary">Call Back</span></h1>

@@ -32,11 +32,11 @@ get_header();
 
 
 <!-- Blog Details Start  -->
-<div class="container pt-5 pb-0 py-lg-5">
+<div class="container pt-5 pb-0 px-4 py-lg-5">
     <!-- About the Project Section -->
     <div class="text-start mb-5 wow fadeIn" data-wow-delay="0.1s">
         <img src="<?php bloginfo('template_directory'); ?>/img/blog/2.jpg"
-            style="width: 450px; height: 250px; object-fit: cover;" alt="Modern Commercial Interiors" class="border">
+            alt="Modern Commercial Interiors" class="blog-custom-img border">
         <h5 class="mt-3 fs-2">About the Topic</h5>
         <p class="mt-4" style="font-size: 16px; line-height: 1.6;">
             Modern commercial interiors are no longer just about aesthetics—they are about creating spaces that inspire productivity, 
@@ -131,7 +131,7 @@ get_header();
 
 <!-- Blog Start -->
 <div class="container-fluid blog py-5">
-    <div class="container py-5">
+    <div class="container py-3 py-lg-5">
         <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
             <h1 class="display-5 text-capitalize text-primary mb-3 py-3">Blog & News</h1>
             <p class="mb-0">
